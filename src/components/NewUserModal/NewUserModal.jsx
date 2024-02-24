@@ -95,7 +95,7 @@ const NewUserModal = () => {
 
     dispatch(closeModal(false));
   };
-  // console.log(editableState);
+
   return (
     <div className={s.container}>
       <div className={s.modal_wrapper}>

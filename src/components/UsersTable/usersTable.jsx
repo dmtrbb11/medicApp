@@ -47,9 +47,6 @@ const UsersTable = (props) => {
   const modalState = useSelector((state) => state.modalReducer.open);
   const dispatch = useDispatch();
   const allUsers = [...reduxUsers, ...usersInfo];
-  // localStorage.removeItem("users");
-  // console.log(JSON.parse(localStorage.getItem("users")));
-  // console.log(reduxUsers.length);
 
   return (
     <div className={s.table_wrapper}>

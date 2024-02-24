@@ -12,14 +12,6 @@ const OneStroke = (props) => {
   };
 
   const stroke_chage = (name, lastName, indexNumber, edit, mail, gender) => {
-    // const currentUserData = {
-    //   indexNumber: indexNumber,
-    //   name: name,
-    //   surName: lastName,
-    //   email: mail,
-    //   gender: gender,
-    //   editable: edit,
-    // };
     dispatch(editUser(true));
     dispatch(openModal(true));
     dispatch(userDataSave({ name, lastName, indexNumber, edit, mail, gender }));
