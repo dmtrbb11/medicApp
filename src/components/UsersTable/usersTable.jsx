@@ -51,7 +51,7 @@ const UsersTable = (props) => {
   return (
     <div className={s.table_wrapper}>
       <header className={s.header}>
-        <h3>Указать ФИО</h3>
+        <h3>Бобров Дмитрий Валерьевич</h3>
         <div className={s.btns_wrapper}>
           <button className={s.addUser_btn} onClick={addUserModal}>
             Добавить пользователя
