@@ -1,0 +1,47 @@
+.stroke_wrapper {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #fff;
+  div {
+    padding: 12px;
+    border-right: 1px solid #f2f2f7;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.stroke_number {
+  width: 51px;
+}
+
+.stroke_surname {
+  width: 129px;
+  overflow-x: scroll;
+}
+.stroke_name {
+  width: 120px;
+  overflow-x: scroll;
+}
+.stroke_gender {
+  width: 120px;
+}
+.stroke_mail {
+  width: 200px;
+  overflow-x: scroll;
+}
+.stroke_action {
+  width: 128px;
+}
+
+.action_btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(136.66deg, #00a5ee 1.58%, #14d7d1 96.24%);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding: 3px 10px;
+  font-weight: 500;
+  color: #ffffff;
+}
